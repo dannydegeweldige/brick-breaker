@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lingo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets\css\lingo.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 align-self-center text-center">
+                <h1>LINGO</h1>
+            </div>
+        </div>
+        <div id="speelbord"> <!-- Previous attempts -->
+        </div>
+        <div class="row justify-content-center"> <!-- playingboard-->
+            <div class="col-md-12 align-self-center text-center">
+                <input class="letterNormaal huidigeInvoer" type="text" maxlength="1">
+                <input class="letterNormaal huidigeInvoer" type="text" maxlength="1">
+                <input class="letterNormaal huidigeInvoer" type="text" maxlength="1">
+                <input class="letterNormaal huidigeInvoer" type="text" maxlength="1">
+                <input class="letterNormaal huidigeInvoer" type="text" maxlength="1">
+            </div>
+        </div>
+        <div class="row justify-content-center"> <!-- Result -->
+            <div class="col-md-12 align-self-center text-center">
+                <span id="resultaat"></span>
+            </div>
+        </div>
+        <div class="row justify-content-center"> <!-- Control button -->
+            <div class="col-md-12 align-self-center text-center">
+                <button id="ctrlLetter" onclick="controleWoord();">Controle</button>
+                <button id="correctie" onclick="letterCorrectie();">Correctie</button>
+                <button id="reload" onclick="window.location.reload();" disabled>Opnieuw</button>
+            </div>
+        </div>
+        <div class="row justify-content-center"> <!-- Control button -->
+            <div class="col-md-12 align-self-center text-center">
+                <p>Maximaal aantal speelbeurten: 5</p>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets\js\lib\jquery-3.4.1.js"></script>
+    <script src="assets\js\lingo.js"></script>
+</body>
+</html>

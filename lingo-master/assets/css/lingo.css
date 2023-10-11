@@ -1,0 +1,56 @@
+:root {
+    --lingo-bg-color: #0080ff;
+}
+
+body {
+    font-size: 18pt;
+    font-weight: bold;
+    background: var(--lingo-bg-color);
+}
+
+input {
+    text-transform: uppercase;
+    text-align: center;
+    width: 40px;
+    margin: 10px 10px;
+}
+
+.input:focus {
+    outline: none !important;
+    border:1px solid red;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.letterNormaal {
+    background: var(--lingo-bg-color);
+    color:white;
+}
+
+.letterGoed {
+    background: orange;
+    color:white;
+    border-radius: 25%;
+}
+
+.letterFout {
+    background: red;
+    color:white;
+}
+
+.letterInWoord  {
+    background: yellow;
+    color:black;
+    border-radius: 50%;
+}
+
+#ctrlLetter {
+    margin: 10px 0;
+}
+
+#correctie {
+    margin: 10px 0;
+}
+
+#reload {
+    margin: 10px 0;
+}
