@@ -1,7 +1,11 @@
 // Definining variables
 var arrayWoorden = [
-    "Ander","Abuis","Baard","Bench","Bende","Boord","Braaf","Braam","Brood","Check","Drank","Draag","Drugs","Faalt","Fabel","Fiets","Files","Graaf","Graan","Graat","Groen","Groot","Hallo",
-    "Hecht","Jacht","Jemig","Nooit","Paard","Paars","Plaag","Quota","Schop","Schot","Tabak","Trein","Trouw","Vrouw","Waard","Wagen","Water","Woord","Zagen","Zomer","Zucht","Zwart"
+    "Ander", "Abuis", "Baard", "Bench", "Bende", "Boord", "Braaf", "Braam", "Brood", "Check", "Drank", "Draag", "Drugs", "Faalt", "Fabel", "Fiets", "Files", "Graaf", "Graan", "Graat",
+     "Groen", "Groot", "Hallo", "Hecht", "Jacht", "Jemig", "Nooit", "Paard", "Paars", "Plaag", "Quota", "Schop", "Schot", "Tabak", "Trein", "Trouw", "Vrouw", "Waard", "Wagen", "Water", "Woord",
+      "Zagen", "Zomer", "Zucht", "Zwart", "Analyse", "Argument", "Bewijs", "Concept", "Discussie", "Efficiënt", "Feit", "Groei", "Hypothese", 
+    "Inzicht", "Jargon", "Kennis", "Logica", "Methode", "Notatie", "Onderzoek", "Patroon", "Quote", "Resultaat", "Samenvatting", "Theorie", "Uitleg", "Variabel", "Waarde", "X-as", 
+    "Y-as", "Zin", "Afleiden", "Begrijpen", "Conclusie", "Definitie", "Experimenteren", "Formule", "Grafiek", "Hypothese", "Illustratie", "Jargon", "Kwantitatief", 
+    "Logisch", "Model", "Notatie", "Observeren", "Proces", "Quotatie", "Redeneren", "Steekproef", "Theorie", "Uitleggen", "Verklaren", "Waarnemen"
 ],
     gekozenWoord = [], // Word that should be guessed
     invoerPositie = 1, // Keeping track wich input is active
